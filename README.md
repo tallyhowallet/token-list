@@ -83,11 +83,11 @@ Tally is a community run DAO and welcomes contributions from anyone. If you woul
         "decimals": 18
       }]
 ```
-5. Commit and a pull request to merge the changes into the tallycash/tokenlist repo
-
+5. Commit with 'add-token' prepended to the commit message and a pull request to merge the changes into the tallycash/tokenlist repo
+> All commits must be [signed](https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits) using the `-S` flag to be merged into the main repo. 
 ```
 git add .
-git commit -m 'add new token'
+git commit -S -m 'add-token - 0xBitcoin'
 git push --set-upstream origin add-[token you are adding]-token
 ```
 ## Adding a token image
